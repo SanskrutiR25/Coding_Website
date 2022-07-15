@@ -1,0 +1,65 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Register Page </title>  
+<style> 
+*{margin: 0;padding: 0;}
+body
+{
+    background-image: url(Bg.jpg) ;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-size: cover;
+    padding-top: 25vh;
+}
+.container{
+    width: 250px;
+    height: 300px;
+    padding: 20px 30px;
+    background-color: rgb(239, 243, 247);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(232, 241, 237);
+    margin: auto;
+}
+ul.list{
+    list-style-type: none;
+    text-align: center;
+
+}
+ul.list li{
+   width: 250px;
+   margin-bottom: 30px;
+}
+ul.list li input{
+    width: 200px;
+    text-align: center;
+    padding: 8px 5px;
+    border: none;
+    background-color: #d3d3d3;
+     border-radius: 10px;
+}
+ul.list li input[type="button"]{
+    background-color: #4690fb;
+    color: #fff;
+
+}
+ul.list li:nth-child(5){
+    color: red;
+
+}
+</style>   
+</head>    
+<body>    
+    <center> <h1> Register Form </h1> </center>   
+     <div class="container">
+         <ul class="list">
+             <li><h2>Register</h2></li>
+             <li><input type="text" name="User Name" placeholder="User Name"></li>
+             <li><input type="Password" name="Password" placeholder="Password"></li>
+             <li><input type="Confirm Password" name="Confirm Password" placeholder="Confirm Password"></li>
+             <li><input type="button" name="Submit" value="Submit"></li>
+         </ul>
+     </div>
+</body>     
+</html>  
